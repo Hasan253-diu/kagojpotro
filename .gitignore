@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Local SQLite database — contains personal data
+prisma/data/
+
+# Encrypted document storage — contains personal files
+storage/
+
+# Environment variables — contains secrets
+.env
+.env.local
+.env.production
+
+# Capacitor native builds
+android/
+ios/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
